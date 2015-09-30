@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <servlet>
+    <servlet-name>SnorlaxServlet</servlet-name>
+    <servlet-class>localhost.webdemo.servlet.SnorlaxServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SnorlaxServlet</servlet-name>
+    <url-pattern>/SnorlaxServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Myfirstservlet</servlet-name>
+    <servlet-class>localhost.webdemo.servlet.Myfirstservlet
+	</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Myfirstservlet</servlet-name>
+    <url-pattern>/Myfirstservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Loginform</servlet-name>
+    <servlet-class>localhost.webdemo.servlet.Loginform
+	</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Loginform</servlet-name>
+    <url-pattern>/Loginform</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DoLogin</servlet-name>
+    <servlet-class>localhost.webdemo.servlet.DoLogin
+	</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoLogin</servlet-name>
+    <url-pattern>/DoLogin</url-pattern>
+  </servlet-mapping>
+  <absolute-ordering/>
+</web-app>
